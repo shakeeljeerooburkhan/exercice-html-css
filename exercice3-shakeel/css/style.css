@@ -1,0 +1,37 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.corb{
+    width: 130px;
+}
+
+h1{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: 50;
+}
+
+.text{
+    white-space: pre-line;
+    text-align: center;
+    line-height: 1.2;
+    font-size: small;
+    font-style: italic;
+    border: 1px solid silver;
+    background-color: white;
+    padding: 10px 50px;
+}
+
+p::first-letter{
+    font-weight: bold;
+    font-size: 24px;
+}
